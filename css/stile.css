@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(71, 90, 174);
+    font-size: 18px;
+    margin: 0%;
+    background-image: url(../img/461063108_1503890010490149_1967422458254192971_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+header{
+    background-color:#a3622a;
+    padding-top:1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 10%;
+}
+.container{
+    width: 70%;
+    margin: 0% auto;
+}
+
+section{ background-color: brown;
+    width: 60%;
+    float: left;
+    border: width 10%;;
+}
+aside{
+    background-color: burlywood;
+    width: 30%;
+    float: right;
+}
+
+footer{
+    background-color: bisque;
+    clear: both;
+    text-align: center;
+    margin-top: 55%;
+}
+
+
+

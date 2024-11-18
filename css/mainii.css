@@ -1,0 +1,28 @@
+header {
+background-color: aquamarine;
+text-align: center;
+padding: 1rem;
+}
+
+header nav ul{
+    list-style:none;
+    margin: 100px;
+    padding: 0;
+    display:flex;
+    justify-content:space-around;
+  }
+
+
+  body{
+    background-color: blueviolet;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+  }
+  main{
+    
+  }
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<body style="font-size: 5rem;">
+
+    <button id="btn"; style="font-size: 5rem;"> current date</button>
+    <h3 id="dat"></h3>
+  
+      <script>
+          document.getElementById("btn").addEventListener("click",showDate)
+          function showDate(){
+              document.getElementById("dat").innerHTML = Date()
+          }
+      </script> 
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<body style="font-size: 5rem;">
+
+    <button id="btn">Start Clock</button>
+    <h3 id="dat"></h3>
+  
+    <script>
+        let intervalId;
+
+        document.getElementById("btn").addEventListener("click", function() {
+            if (!intervalId) {
+                intervalId = setInterval(showDate, 1000);
+                this.textContent = "Stop Clock";
+            } else {
+                clearInterval(intervalId);
+                intervalId = null;
+                this.textContent = "Start Clock";
+            }
+        });
+
+        function showDate() {
+            const now = new Date();
+            const formattedDate = now.toLocaleString(); 
+            document.getElementById("dat").innerHTML = formattedDate;
+        }
+    </script> 
+</body>
+</html> -->

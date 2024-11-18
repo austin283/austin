@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+    <link rel="stylesheet" href="css/class.css">
+    <link rel="icon" href="img/Subject.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#logo"><img src="img/Subject.png" style="width: 50px;height: 50px" alt="icon"></a></li>
+                <li><a href="./home.html">home</a></li>
+                <li><a href="./classii.html">about</a></li>
+                <li><a href="./project.html">services</a></li>
+                <li><a href="./form.html">contacts</a></li>
+                <li id="header-date" style="font-size: 1rem; margin-left: auto;"></li> 
+            </ul>
+        </nav>
+    </header>
+    <div class="first">
+        <h1 class="in">welcome to lista</h1>
+        <p class="in">A place where we all connect and have fun</p>
+
+        <button id="btn" style="font-size: 1rem; background-color: rgb(56, 102, 186); font-family: fantasy;">current date</button>
+        <h3 id="dat"></h3>
+  
+        <script>
+            document.getElementById("btn").addEventListener("click", showDate);
+
+            function showDate() {
+                document.getElementById("dat").innerHTML = new Date().toLocaleString();
+            }
+
+            function updateHeaderDate() {
+                const now = new Date();
+                const options = {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    hour12: true
+                };
+                const formattedDate = now.toLocaleString(undefined, options);
+                document.getElementById("header-date").textContent = formattedDate;
+            }
+
+            updateHeaderDate(); // Set the date initially
+            setInterval(updateHeaderDate, 1000); // Update the date every second
+        </script>
+    </div>
+
+    <div class="class">
+        <h1>Members of lista</h1>
+        <p>At the heart of lista are the incredible people who make this community truly special. Our members come from all corners of the world, bringing their unique perspectives, passions, and personalities. Each one contributes to the vibrant, dynamic energy that makes this place more than just a website—it's a thriving community of connections, creativity, and fun.</p>
+    </div>
+
+    <div class="team">
+        <div class="mem">
+            <img src="img/1.jpg" alt="jonney depp">
+            <h2>John</h2>
+            <p>web developer</p>
+        </div>
+
+        <div class="mem">
+            <img src="img/2.jpg" alt="woman">
+            <h2>ola</h2>
+            <p>coder</p>
+        </div>
+
+        <div class="mem">
+            <img src="img/3.jpg" alt="woman">
+            <h2>Tunde</h2>
+            <p>hacker</p>
+        </div>
+    </div>
+
+    <div class="class">
+        <h2>Upcoming virtual events</h2>
+        <p>Headline: "Join Us for lista co-op: A Virtual Party Like No Other!"
+            Content Idea: Promote any upcoming events or live-streamed activities, such as themed virtual parties, trivia nights, or creative challenges. Emphasize the fun and connectivity aspects, with users joining from around the world for a shared experience. If it's a community-driven event, encourage users to contribute ideas, vote on themes, or suggest fun activities.
+        </p>
+    </div>
+
+    <footer>
+        &copy;fortuneAubrey2024
+    </footer>
+</body>
+</html>

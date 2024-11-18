@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  } 
+      body {
+        color: rgb(175, 118, 186);
+        background-color: rgb(8, 114, 184);
+        min-height: 100vh;
+        
+    }
+    
+    header{
+        background-image: url(../img/dgdd80h-c9ed117a-815e-4f0d-9758-b176d26c2462.png);
+        padding: 20%;
+        background-size: cover;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    nav{
+    color: aliceblue;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100%;
+    }
+    nav ul{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }

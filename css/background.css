@@ -1,0 +1,40 @@
+div{
+background-image: url(../img/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg.webp);
+padding: 20%;
+color: pink;
+background-size: cover; /*this is for background image*/}
+ 
+body{
+    background-color: pink;}
+
+ ul{ display: flex;
+   justify-content: space-around;}
+
+   header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    
+    header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    header nav ul li {
+      margin-right: 20px;
+    }
+    
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    
+    header nav a:hover {
+      color: #ccc;
+    }

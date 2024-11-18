@@ -1,0 +1,48 @@
+div{
+    background-color: bisque;
+    color: black;
+    width: auto;
+}
+.second{
+background-color: rgb(64, 44, 82);
+ color: antiquewhite;
+ width: 30%;
+}
+
+#third{
+    background-color: brown;
+    width: 50%;
+    color: aliceblue;
+    float:right;
+}
+body{
+    background-color: aqua;
+}
+
+.computer{
+width: 20%;
+border:solid black;
+margin-right: 20%;
+
+}
+.phones{
+    width: 20%;
+    border: solid black;
+
+    
+}
+
+.tv{
+    width: 20%;
+    border:solid black;
+    margin-left: 40%;
+}
+
+#boss{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+
+}

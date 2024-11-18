@@ -1,0 +1,32 @@
+body{ color: azure;
+background-color: black;
+line-height: 4;
+
+}
+
+
+.wrappers{
+
+
+
+}
+table{
+background-color: rgb(34, 26, 26);
+width: 100%; 
+}
+
+
+caption{
+    text-align: left;
+    background-color:hsl(0, 0%, 5%);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+caption,
+td,
+th{
+    
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

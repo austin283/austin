@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>welcome to a new topic</h2>
+    <p>making use of eventlistener</p>
+    <button id="btn"> current date</button>
+  <h3 id="dat"></h3>
+
+    <script>
+        document.getElementById("btn").addEventListener("click",showDate)
+        function showDate(){
+            document.getElementById("dat").innerHTML = Date()
+        }
+    </script> 
+
+
+    
+<h3 id="bat"></h3>
+<button id="ltn">current</button>
+  <script>
+     
+      x.addEventListener("click",displayperson);
+      x.addEventListener("click",myguy);
+      function displayperson(){
+         alert("Your in Danger")
+      }
+      function myguy(){
+        alert("Do u wanna die bitch")
+      }
+  </script>
+
+
+<script>
+    const button = document.getElementById("btn");
+    const dataElement = document.getElementById("dat");
+    button.addEventListener("mouseover",function(){
+        dataElement.innerHTML="Hi guys";
+    });
+    button.addEventListener("mouseout",function(){
+        dataElement.innerHTML="Welcome back";});
+     button.addEventListener("click",function(){
+        dataElement.innerHTML="yo"
+     })
+        
+</script>
+
+
+
+</body>
+</html>
